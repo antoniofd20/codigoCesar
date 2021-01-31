@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    background: #1B1D35;
+    color: #fff;
+}
+
+.contenedor {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+}
+
+.titulo {
+    font-weight: 250;
+    font-size: 2rem;
+    color: #B8711B;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.linea {
+    border: none;
+    margin-bottom: 5px;
+    border-top: 10px solid #B8711B;
+    background: none;
+    color: none;
+}
+
+.formulario {
+    background: #2C2C47;
+    padding: 30px;
+    padding-bottom: 60px;
+    margin-bottom: 30px;
+}
+
+.formulario .form-group {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.formulario textarea {
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 300px;
+    min-height: 100px;
+}
+
+.boton {
+    padding: 10px;
+    text-align: center;
+    border: none;
+    width: 100px;
+    height: 51px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #679863;
+    display: inline-block;
+    color: #fff;
+    background: #769766;
+    cursor: pointer;
+    border-radius: 10px;
+    float: right;
+}
+
+.integrantes {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.integrantes span {
+    font-size: 1.4rem;
+    font-family: 'Raleway', sans-serif;
+    color: #B8711B;
+}
+
+.texto {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.texto span {
+    color: #B8711B;
+}
+
+.btn {
+    background: #B8711B;
+    border: 1px solid #925812;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #925812;
+    border: 1px solid #925812;
+}
+
+.btn:focus {
+    background: #925812;
+    border: 1px solid #925812;
+    border: none;
+}
+
+.collapse {
+    padding: 0;
+    margin: 0;
+    background: #1B1D35;
+}
+
+.card {
+    padding: 0;
+    margin-bottom: 0;
+    border: 1px solid #1B1D35;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fes {
+    margin: 20px;
+    position: absolute;
+    width: 10%;
+}
+
+.unam {
+    margin: 20px 20px 20px 85%;
+    position: absolute;
+    width: 10%;
+}
+
+.regresar {
+    font-size: 1.3rem;
+    margin: 20px auto 20px 90%;
+    display: block;
+    text-decoration: none;
+    color: #B8711B;
+}
+
+.regresar:hover {
+    text-decoration: underline;
+}
